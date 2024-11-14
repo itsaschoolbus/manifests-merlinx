@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remotes -->
+  <remote name="ghh"
+          fetch="https://github.com" />
+
+  <remote name="ksawlii"
+          fetch="https;//github.com/ksawlii"
+          revision="lineage-22.0" />
+
+  <!-- a53x trees -->
+  <project path="device/samsung/a53x" name="android_device_samsung_a53x" remote="ksawlii" />
+  <project path="device/samsung/a53x-common" name="android_device_samsung_a53x-common" remote="ksawlii" />
+  <project path="vendor/samsung/a53x" name="android_vendor_samsung_a53x" remote="ksawlii" />
+  <project path="vendor/samsung/a53x-common" name="android_vendor_samsung_a53x-common" remote="ksawlii" />
+  <project path="kernel/samsung/a53x" name="Gabriel2392/android_kernel_samsung_a53x_xy" remote="ghh" revision="A536BXXSAEXE1"/>
+
+  <!-- samsung common -->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" remote="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi/fm" name="LineageOS/android_hardware_samsung_slsi_fm" remote="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi/scsc/wifibt/wifi_hal" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi-linaro/openmax" name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" remote="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" remote="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi-linaro/graphics" name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" remote="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" remotes="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi-linaro/exynos" name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" remotes="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remotes="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi/scsc/wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remotes="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi/libbt" name="LineageOS/android_hardware_samsung_slsi_libbt" remotes="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi-linaro/codec2" name="LineageOS/android_hardware_samsung_slsi-linaro_codec2" remote="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi/exynos" name="LineageOS/android_hardware_samsung_slsi_exynos" remote="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi/openmax" name="LineageOS/android_hardware_samsung_slsi_openmax" remote="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" remote="ghh" revision="lineage-22.0" />
+  <project path="hardware/samsung_slsi/exynos5-insignal" name="android_hardware_samsung_slsi_exynos5-insignal" remote="ghh" revision="lineage-22.0"/>
+  
+  <!-- packages/apps -->
+  <project path="packages/apps/ViaBrowser" name="ksawlii/packages_apps_ViaBrowser" remote="ghh" revision="master"/>
+  <project path="packages/apps/Fdroid" name="ksawlii/packages_apps_fdroid" remote="ghh" revision="main"/>
+  <project path="packages/apps/AuroraStore" name="ksawlii/packages_apps_AuroraStore" remote="ghh" revision="main"/>
+  <project path="packages/apps/MicroG-Services" name="ksawlii/packages_apps_MicroG-Services" remote="ghh" revision="main"/>
+</manifest>
