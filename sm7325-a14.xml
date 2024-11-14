@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- a52s -->
+  <project path="device/samsung/a52sxq" name="Simon1511/android_device_samsung_a52sxq" remote="github" revision="lineage-21"/>
+  <project path="vendor/samsung/a52sxq" name="Simon1511/android_vendor_samsung_a52sxq" remote="github" revision="lineage-21"/>
+
+    <!-- sm7325 common trees -->
+  <project path="kernel/samsung/sm7325" name="Simon1511/android_kernel_samsung_sm7325" remote="github" revision="lineage-21"/>
+  <project path="vendor/samsung/sm7325-common" name="Simon1511/android_vendor_samsung_sm7325-common" remote="github" revision="lineage-21"/>
+  <project path="device/samsung/sm7325-common" name="Simon1511/android_device_samsung_sm7325-common" remote="github" revision="lineage-21"/>
+
+    <!-- Samsung common -->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-21"/>
+    <!-- packages/apps -->
+  <project path="packages/apps/ViaBrowser" name="ksawlii/packages_apps_ViaBrowser" remote="github" revision="master"/>
+  <project path="packages/apps/Fdroid" name="ksawlii/packages_apps_fdroid" remote="github" revision="main"/>
+  <project path="packages/apps/AuroraStore" name="ksawlii/packages_apps_AuroraStore" remote="github" revision="main"/>
+  <project path="packages/apps/MicroG-Services" name="ksawlii/packages_apps_MicroG-Services" remote="github" revision="main"/>
+
+</manifest>
