@@ -4,11 +4,6 @@
   <remote name="ghh"
           fetch="https://github.com"
           clone-depth="1" />
-
-  <remote name="fucking-aospa"
-          fetch="https://github.com/sm6225-sapphire"
-          revision="uvite"
-          clone-depth="1" />
   
   <remote name="shitty-battery"
           fetch="https://github.com/dmXq-development"
@@ -17,11 +12,11 @@
 
   <!-- sm8550 -->
   <project path="device/samsung/sm8550-common" name="android_device_samsung_sm8550-common" remote="shitty-battery"/>
-  <project path="vendor/samsung/sm6225-common" name="proprietary_vendor_samsung_sm8550-common" remote="shitty-battery"/>
+  <project path="vendor/samsung/sm8550-common" name="proprietary_vendor_samsung_sm8550-common" remote="shitty-battery"/>
 
   <!-- kernel -->
-  <project path="kernel/samsung/sm8550" name="android_kernel_samsung_sm8550" remote="shitty-battery"/>
-  <project path="kernel/samsung/sm8550-modules" name="android_kernel_samsung_sm8550-modules" remote="shitty-battery" revision="lineage-22.0-wifi"/>
+  <project path="kernel/samsung/sm8550" name="android_kernel_samsung_sm8550" remote="shitty-battery" revision="android15-stable"/>
+  <project path="kernel/samsung/sm8550-modules" name="android_kernel_samsung_sm8550-modules" remote="shitty-battery"/>
   <project path="kernel/samsung/sm8550-devicetrees" name="android_kernel_samsung_sm8550-devicetrees" remote="shitty-battery"/>
 
   <!-- samsung common -->
