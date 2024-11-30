@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remotes -->
+  <remote name="ghh"
+          fetch="https://github.com"
+          clone-depth="1" />
+  
+  <remote name="shitty-battery"
+          fetch="https://github.com/dmXq-development"
+          revision="lineage-22.0"
+          clone-depth="1" />
+
+  <!-- sm8550 -->
+  <project path="device/samsung/sm8550-common" name="android_device_samsung_sm8550-common" remote="shitty-battery"/>
+  <project path="vendor/samsung/sm8550-common" name="proprietary_vendor_samsung_sm8550-common" remote="shitty-battery"/>
+
+  <!-- kernel -->
+  <project path="kernel/samsung/sm8550" name="android_kernel_samsung_sm8550" remote="shitty-battery" revision="android15-stable"/>
+  <project path="kernel/samsung/sm8550-modules" name="android_kernel_samsung_sm8550-modules" remote="shitty-battery"/>
+  <project path="kernel/samsung/sm8550-devicetrees" name="android_kernel_samsung_sm8550-devicetrees" remote="shitty-battery"/>
+
+  <!-- samsung common -->
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="shitty-battery"/>
+
+  <!-- shitty battery -->
+  <project path="vendor/samsung/dm2q" name="proprietary_vendor_samsung_dm2q" remote="shitty-battery"/>
+  <project path="device/samsung/dm2q" name="android_device_samsung_dm2q" remote="shitty-battery"/>
+
+  <!-- packages/apps -->
+  <project path="packages/apps/ViaBrowser" name="ksawlii-android-repos/android_packages_apps_ViaBrowser" remote="ghh" revision="main"/>
+  <project path="packages/apps/Fdroid" name="ksawlii-android-repos/android_packages_apps_fdroid" remote="ghh" revision="main"/>
+  <project path="packages/apps/AuroraStore" name="ksawlii-android-repos/android_packages_apps_AuroraStore" remote="ghh" revision="main"/>
+  <project path="packages/apps/MicroG-Services" name="ksawlii-android-repos/android_packages_apps_MicroG-Services" remote="ghh" revision="main"/>
+
+</manifest>
