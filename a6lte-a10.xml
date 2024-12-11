@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: a6lte
+    * rom: AOSP A10
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/samsungexynos7870" name="gitty" />
+    <remote fetch="git@github.com:Ksawlii-Android-Repos" name="ksawlii-repos" revision="lineage-17.1" />
+
+    <!-- Device -->
+    <project name="device_samsung_a3y17lte" path="device/samsung/a6lte" remote="ksawlii-repos" revision="lineage-17.1" />
+
+    <!-- Kernel -->
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="gitty" revision="aosp" />
+
+    <!-- Vendor -->
+    <project name="vendor_samsung_a6lte" path="vendor/samsung/a6lte" remote="ksawlii-repos" revision="lineage-17.1" />
+    
+    <!-- Hardware -->
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="lineage-17.1" />
+    
+    <!-- bsp -->
+    <project name="android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="gitty" revision="lineage-17.1" />
+    <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="gitty" revision="lineage-17.1" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="gitty" revision="lineage-17.1" />
+    <project name="android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="gitty" revision="lineage-17.1" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="gitty" revision="lineage-17.1" />
+</manifest>
