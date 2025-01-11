@@ -25,6 +25,6 @@
         <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="SOVIET" revision="15.0" />
         
         <!-- hardware -->
-        <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="AOSPA" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AOSPA" />
 
 </manifest>
