@@ -22,7 +22,7 @@
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghh" revision="lineage-22.1"/>
   
   <!-- mediatek stuff -->
-  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="ghh" revision="fifteen"/>
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="ghh" revision="lineage-22.1"/>
   <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="ghh" revision="lineage-22.1"/>
 
   <!-- merlinx -->
