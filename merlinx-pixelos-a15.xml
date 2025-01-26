@@ -19,10 +19,10 @@
   <project path="kernel/xiaomi/mt6768" name="team-sunfish/kernel_xiaomi_mt6768" remote="ghh" revision="lineage-22.1"/>
 
   <!-- xiaomi stuff -->
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghh" revision="lineage-22.1"/>
+  <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi" remote="ghh" revision="fifteen"/>
   
   <!-- mediatek stuff -->
-  <project path="hardware/mediatek" name="PixelOS-AOSP/hardware_xiaomi" remote="ghh" revision="fifteen"/>
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="ghh" revision="lineage-22.1"/>
   <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="ghh" revision="lineage-22.1"/>
 
   <!-- merlinx -->
