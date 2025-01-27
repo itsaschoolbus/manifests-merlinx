@@ -22,7 +22,7 @@
   <project path="kernel/xiaomi/mt6768" name="merlinx-stuff/android_kernel_xiaomi_mt6768-legacy" remote="ghh" revision="lineage-22.1"/>
 
   <!-- aospa -->
-  <remove-project name="vendor/aospa"/>
+  <remove-project name="AOSPA/android_vendor_aospa"/>
   <project path="vendor/aospa" name="android_vendor_aospa" remote="ksawlii" revision="vauxite"/>
 
   <!-- xiaomi stuff -->
