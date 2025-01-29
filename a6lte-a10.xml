@@ -10,13 +10,13 @@
     <remote fetch="git@github.com:Ksawlii-Android-Repos" name="ksawlii-repos" revision="lineage-17.1" />
 
     <!-- Device -->
-    <project name="device_samsung_a3y17lte" path="device/samsung/a6lte" remote="ksawlii-repos" revision="lineage-17.1" />
+    <project name="android_device_samsung_a6lte" path="device/samsung/a6lte" remote="ksawlii-repos" revision="lineage-17.1" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="gitty" revision="aosp" />
 
     <!-- Vendor -->
-    <project name="vendor_samsung_a6lte" path="vendor/samsung/a6lte" remote="ksawlii-repos" revision="lineage-17.1" />
+    <project name="Exynos7870-Revived-Beta/android_vendor_samsung_a6lte" path="vendor/samsung/a6lte" remote="github" revision="master" />
     
     <!-- Hardware -->
     <project name="android_hardware_samsung" path="hardware/samsung" remote="gitty" revision="lineage-17.1" />
