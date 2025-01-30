@@ -7,10 +7,10 @@
 
     <!-- Remote -->
     <remote fetch="https://github.com/samsungexynos7870" name="gitty" />
-    <remote fetch="git@github.com:Ksawlii-Android-Repos" name="ksawlii-repos" revision="lineage-17.1" />
+    <remote fetch="git@github.com:Ksawlii-Android-Repos" name="ksawlii" revision="lineage-17.1" />
 
     <!-- Device -->
-    <project name="android_device_samsung_a6lte" path="device/samsung/a6lte" remote="ksawlii-repos" revision="lineage-17.1" />
+    <project name="android_device_samsung_a6lte" path="device/samsung/a6lte" remote="ksawlii" revision="lineage-17.1" />
     <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="ksawlii" revision="lineage-17.1" />
 
     <!-- Kernel -->
