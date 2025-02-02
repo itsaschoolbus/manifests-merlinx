@@ -9,12 +9,8 @@
         
         <remote name="ksawlii"
                 fetch="https://github.com/Ksawlii-Android-Repos"
-                revision="Vampire_v2" />
+                revision="matrixx-15" />
 
-        <remote name="AOSPA"
-                fetch="https://github.com/AOSPA"
-                revision="vauxite" />
-        
         <remote name="SOVIET"
                 fetch="https://github.com/SOVIET-ANDROID/"
                 revision="fifteen" />
@@ -25,6 +21,6 @@
         <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="SOVIET" revision="15.0" />
         
         <!-- hardware -->
-        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AOSPA" />
+        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghh" />
 
 </manifest>
