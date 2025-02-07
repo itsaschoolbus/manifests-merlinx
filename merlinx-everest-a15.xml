@@ -18,9 +18,6 @@
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="hipex" revision="15"/>
   <project path="kernel/xiaomi/mt6768" name="merlinx-stuff/android_kernel_xiaomi_mt6768-legacy" remote="ghh" revision="lineage-22.1"/> 
 
-  <!-- xiaomi stuff -->
-  <project path="hardware/xiaomi" name="ProjectEverest-Devices/android_hardware_xiaomi" remote="ghh" revision="lineage-22.1"/>
-  
   <!-- mediatek stuff -->
   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="ghh" revision="lineage-22.1"/>
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ksawlii" revision="miku-15"/>
