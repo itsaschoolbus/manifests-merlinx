@@ -18,9 +18,6 @@
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="hipex" revision="15"/>
   <project path="kernel/xiaomi/mt6768" name="merlinx-stuff/android_kernel_xiaomi_mt6768-legacy" remote="ghh" revision="lineage-22.1"/> 
 
-  <!-- mediatek stuff -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ksawlii" revision="miku-15"/>
-
   <!-- merlinx -->
   <project path="vendor/xiaomi/merlinx" name="Jbub5/proprietary_vendor_xiaomi_merlinx" remote="ghh" revision="15"/>
   <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="ksawlii"/>
