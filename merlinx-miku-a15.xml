@@ -26,7 +26,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ksawlii"/>
 
   <!-- merlinx -->
-  <project path="vendor/xiaomi/merlinx" name="mitsuav/proprietary_vendor_xiaomi_merlinx" remote="ghh" revision="lineage-22"/>
+  <project path="vendor/xiaomi/merlinx" name="Jbub5/proprietary_vendor_xiaomi_merlinx" remote="ghh" revision="15"/>
   <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="ksawlii"/>
 
 </manifest>
