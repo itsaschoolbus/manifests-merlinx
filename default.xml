@@ -2,31 +2,33 @@
 <manifest>
   
   <!-- Remotes -->
-  <remote name="ghh"
-          fetch="https://github.com"
-          clone-depth="1" />
+  <remote name="github"
+        fetch="https://github.com"
+        clone-depth="1" />
   
   <remote name="ksawlii"
-          fetch="https://github.com/Ksawlii-Android-Repos"
-          revision="matrixx-15" />
+        fetch="https://github.com/Ksawlii-Android-Repos" />
             
-  <remote name="hipex"
-          fetch="https://github.com/hipexscape" />
+  <remote name="hipexscape"
+        fetch="https://github.com/hipexscape" />
+ 
+  <remote name="itsaschoolbus"
+        fetch="https://github.com/itsaschoolbus" />
 
   <!-- mt6768 -->
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common.git" remote="ksawlii" revision="15-fmr"/> 
-  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="hipex" revision="15"/>
-  <project path="kernel/xiaomi/mt6768" name="MrShockWAVEE/android_kernel_xiaomi_mt6768" remote="ghh" revision="kernel-tree-wip"/> 
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common.git" remote="itsaschoolbus" revision="15-"/> 
+  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="hipexscape" revision="15"/>
+  <project path="kernel/xiaomi/mt6768" name="MrShockWAVEE/android_kernel_xiaomi_mt6768" remote="github" revision="kernel-tree-wip"/> 
 
-  <!-- xiaomi stuff -->
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghh" revision="lineage-22.1"/>
+  <!-- xiaomi -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.1"/>
   
   <!-- mediatek stuff -->
-  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="ghh" revision="lineage-22.1"/>
-  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="ghh" revision="lineage-22.1"/>
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="lineage-22.1"/>
+  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-22.1"/>
 
   <!-- merlinx -->
-  <project path="vendor/xiaomi/merlinx" name="Jbub5/proprietary_vendor_xiaomi_merlinx" remote="ghh" revision="15"/>
-  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="ksawlii"/>
+  <project path="vendor/xiaomi/merlinx" name="Jbub5/proprietary_vendor_xiaomi_merlinx" remote="github" revision="15"/>
+  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="ksawlii" revision="15"/>
 
 </manifest>
